@@ -1,5 +1,4 @@
-import mongoose, { mongo } from 'mongoose'
-import { stringify } from 'qs'
+import mongoose from 'mongoose'
 
 const orderSchema = mongoose.Schema({
     user: {

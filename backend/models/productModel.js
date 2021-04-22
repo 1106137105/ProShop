@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-import { stringify } from 'qs'
 
 const reviewSchema = mongoose.Schema({
     name: {type: String, required: true },
